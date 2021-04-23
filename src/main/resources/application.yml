@@ -1,0 +1,11 @@
+server:
+  port : 8088
+
+mailbox:
+  protocol: imaps
+  host: mail.plur.se
+  port: 993
+  folder: Inbox
+  login: ${MAILBOX_LOGIN}
+  password: ${MAILBOX_PASSWORD}
+
